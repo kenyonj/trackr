@@ -1,0 +1,10 @@
+development:
+  adapter: postgresql
+  encoding: unicode
+  database: trackr_development
+  pool: 5
+production:
+  adapter: postgresql
+  encoding: unicode
+  database: trackr_production
+  pool: 5
